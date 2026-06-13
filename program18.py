@@ -11,6 +11,9 @@ book ={
     "MissileMan"    : 1000
 }
 
+for key, value in book.items():
+    print("Key :",key,"Values:",value)
+
 print(book)                                 # Printing String
 print(book.keys())                          # printing only keys
 print(book.values())                        # Printing Values of Dictionary
