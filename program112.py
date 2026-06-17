@@ -10,7 +10,7 @@ for _ in range(iNo):
         name = str(input("Enter Patients Name :\n"))
         age = int(input("Enter Age : \n"))
         day = int(input("Enter Day : \n"))
-        file.write(f"Name : {name}\nAge : {age}\nDay : {day}\n\n")
+        file.write(f"Name : {name}|Age : {age}|Day : {day}\n")
     file.close()
 
 with open('file.txt','r') as file:
@@ -21,8 +21,7 @@ with open('file.txt','w') as file :
     name = str(input("Enter a name to delete a data : "))
     for line in lines:
         if name in line:
-            lines.remove(line[0])
-            lines.remove(line[1])
+            lines.remove(line)
     lines = "".join(lines)
     file.write(lines)
             
