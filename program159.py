@@ -1,8 +1,5 @@
 # reverse using recursoin
 
-
-
-
 def ReverseNumber (No : int,rev = 0)->int:
     if(No == 0):
         return rev
