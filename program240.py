@@ -2,6 +2,9 @@ def ToggleBit(iNo : int , iPos :int)->int:
     iMask = 0x1
     iResult = 0
 
+    if iPos < 1 or iPos > 32:
+        print("Invalid position")
+        return
     iMask = iMask << (iPos -1)
     iResult = iNo ^ iMask
 
