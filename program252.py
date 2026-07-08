@@ -10,7 +10,7 @@ class NODE:
             print(first.data)
             first = first.next
 
-    
+                                                                                                                    
 
 
 def main():
