@@ -137,19 +137,6 @@ class Linkedlist:
 
         return iCnt
     
-    def CountOdd(self)->int:
-        temp = None
-        iCnt = 0
-
-        temp = self.head
-
-        while temp != None:
-            if temp.data % 2 == 1:
-                iCnt +=1
-            temp = temp.next
-
-        return iCnt
-    
 
     
 def main():

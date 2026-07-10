@@ -133,7 +133,7 @@ class SinglyCL:
             return
         
         if iPos == 1 :
-            self.DeleteLast()
+            self.DeleteFirst()
         elif iPos == self.iCount:
             self.DeleteLast()
         else :
@@ -146,6 +146,8 @@ class SinglyCL:
 
             temp.next = target.next
             del target
+
+            self.iCount -=1
             
 
 
