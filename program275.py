@@ -28,6 +28,6 @@ def main()->None:
     sobj = SinglyCL()
     iRet = 0
 
-
+    
 if __name__ == "__main__":
     main()
